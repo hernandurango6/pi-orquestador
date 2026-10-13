@@ -1,0 +1,30 @@
+{
+  "name": "pi-orquestador",
+  "version": "1.0.0",
+  "description": "Multi-agent orchestration for Pi and PiG based on explore, worker, and verifier roles with durable execution.",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "orchestrator",
+    "multi-agent",
+    "pi-agents"
+  ],
+  "author": "Hernan Durango <hernandurango6@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hernandurango6/pi-orquestador.git"
+  },
+  "dependencies": {
+    "pi-agents": "^0.23.1"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  }
+}
